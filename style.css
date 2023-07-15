@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #03045e;
+}
+
+.dictionary {
+    width: 500px;
+    text-align: center;
+    background-color: #023e8a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 20px 40px;
+    color:#90e0ef;
+    text-transform: capitalize;
+}
+
+input {
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #0096c7;
+    outline: none;
+}
+
+.dict-details {
+    display: none;
+}
